@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform2</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <center>
+        <form action="">
+        <table cellspacing="1" cellpadding="1" width="30%" height="40" align="left">
+            <tr>
+                <td>
+                    <!-- First Name -->
+                    <label for="first">First Name:</label>
+                    <input type="text" name="first" placeholder="Enter First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <!-- Last Name -->
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="name" id="last" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Email -->
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter Email Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <!-- Password -->
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Gender -->
+                    <label for="gender">Gender:</label><br>
+                    Male<input type="radio" name="male" id="gender" value="male">
+                    <br>
+                    Female<input type="radio" name="female" id="gender" value="female">
+                    <br>
+                    other<input type="radio" name="other" id="gender" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Age -->
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Preferences -->
+                    <label for="">Preferences:</label>
+                    <br>
+                    <label for="Acrylic">Acrylic Painting</label>
+                    <input type="checkbox" name="Preferences" id="Acrylic">
+                    <br>
+                    <label for="oil">Oil Painting</label>
+                    <input type="checkbox" name="Preferences" id="oil">
+                    <br>
+                    <label for="">Water Color Painting</label>
+                    <input type="checkbox" name="Preferences" id="water">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Occupation -->
+                    <label for="Occupation">Select Occupation:</label>
+                    <select name="" id="Occupation">
+                        <option value="student">student</option>
+                        <option value="teacher">teacher</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Bio -->
+                    <label for="bio">Bio:</label>
+                    <textarea name="bio" id="bio" rows="5" cols="40" placeholder="Share few lines about yourself...."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </center>
+</body>
+</html>
